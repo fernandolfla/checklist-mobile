@@ -1,0 +1,12 @@
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\CheckListMobile.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\Java.Interop.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\Mono.Android.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\mscorlib.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.Core.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.Data.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.Xml.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\System.Numerics.dll
+C:\Users\Fernando\Desktop\Projeto CheckVTR\CheckList\CheckListMobile\CheckListMobile\obj\Release\android\assets\Mono.Data.Tds.dll

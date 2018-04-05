@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget76"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/Tatico"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Bem Vindo "
+                android:textSize="35sp" />
+            <TextView
+                android:id="@+id/widget411"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="KM INICIAL "
+                android:textSize="35sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:inputType="number"
+                android:textSize="35sp"
+                android:ems="10"
+                android:maxLength="5"
+                android:id="@+id/KM" />
+            <TextView
+                android:id="@+id/Cabecalho"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Selecione a Área"
+                android:textSize="35sp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/Area"
+                android:checkedButton="@+id/Area1">
+                <RadioButton
+                    android:id="@+id/Area1"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="ALPHA 1"
+                    android:textSize="35sp"
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:id="@+id/Area2"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="ALPHA 2"
+                    android:textSize="35sp"
+                    android:layout_weight="1" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/widget74"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Selecione a VTR"
+                android:textSize="35sp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/VTR">
+                <RadioButton
+                    android:id="@+id/VTR1"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="AZA-9837"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:visibility="gone" />
+                <RadioButton
+                    android:id="@+id/VTR2"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="AZH-0839"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:visibility="gone" />
+                <RadioButton
+                    android:id="@+id/VTR3"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="BAK-5279"
+                    android:layout_weight="1"
+                    android:textSize="35sp"
+                    android:visibility="gone" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/widget41"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Verifique a VTR e Marque "
+                android:textSize="35sp" />
+            <Switch
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Oleo"
+                android:text="Óleo " />
+            <Switch
+                android:text="Combustível"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Combustivel" />
+            <Switch
+                android:text="P90"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/P90" />
+            <Switch
+                android:text="Retrovisores"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Retrovisores" />
+            <Switch
+                android:text="Faróis"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Farois" />
+            <Switch
+                android:text="Ferramentas"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Ferramentas" />
+            <Switch
+                android:text="Pneu "
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Pneu" />
+            <Switch
+                android:text="Lanternas "
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Lanternas" />
+            <Switch
+                android:text="Pintura"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Pintura" />
+            <Switch
+                android:text="Documento / CRLV"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Documento" />
+            <Switch
+                android:text="Chaves "
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:textSize="25sp"
+                android:checked="false"
+                android:id="@+id/Chave" />
+            <TextView
+                android:id="@+id/widget4111"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="OBSERVAÇÕES "
+                android:textSize="25sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="35sp"
+                android:ems="10"
+                android:maxLength="999"
+                android:text="Plantão S.A."
+                android:id="@+id/OBS1" />
+            <Button
+                android:text="AVANÇAR"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/btnPro"
+                android:textSize="35sp"
+                android:layout_weight="1.47" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

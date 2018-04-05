@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/BtnCheckList"
+        android:layout_width="375dp"
+        android:layout_height="140dp"
+        android:text="CHECK-LIST" />
+    <Button
+        android:id="@+id/btnProblemas"
+        android:layout_width="375dp"
+        android:layout_height="140dp"
+        android:text="PROBLEMAS VTR's" />
+    <Button
+        android:id="@+id/Livre"
+        android:layout_width="375dp"
+        android:layout_height="140dp"
+        android:text="MANUTENÇÃO" />
+</LinearLayout>
