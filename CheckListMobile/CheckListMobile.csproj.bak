@@ -16,13 +16,13 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
@@ -30,7 +30,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
-    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <Debugger>Xamarin</Debugger>
+    <AotAssemblies>False</AotAssemblies>
+    <EnableLLVM>False</EnableLLVM>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
+    <EnableProguard>False</EnableProguard>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -54,18 +62,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Active\CheckChavesActivity.cs" />
+    <Compile Include="Active\CheckListActivity.cs" />
+    <Compile Include="Active\FinalizaCheckActivity.cs" />
+    <Compile Include="Active\InicioActivity.cs" />
+    <Compile Include="Active\ProblemasActivity.cs" />
+    <Compile Include="BLL\CadChavesBLL.cs" />
+    <Compile Include="BLL\CadUsuariosBLL.cs" />
+    <Compile Include="BLL\CadVeiculosBLL.cs" />
+    <Compile Include="BLL\CheckListBLL.cs" />
+    <Compile Include="BLL\ConfiguracoesBLL.cs" />
     <Compile Include="BLL\LoginBLL.cs" />
+    <Compile Include="BLL\ManutencaoBLL.cs" />
+    <Compile Include="BLL\OleoBLL.cs" />
+    <Compile Include="BLL\ProblemaBLL.cs" />
+    <Compile Include="BLL\RelatoriosBLL.cs" />
+    <Compile Include="Component\Aguarde.cs" />
     <Compile Include="Component\Crypto.cs" />
     <Compile Include="Component\Erros.cs" />
+    <Compile Include="Component\Shared.cs" />
+    <Compile Include="DAO\CadChavesDAO.cs" />
+    <Compile Include="DAO\CadUsuariosDAO.cs" />
+    <Compile Include="DAO\CadVeiculosDAO.cs" />
+    <Compile Include="DAO\CheckListDAO.cs" />
+    <Compile Include="DAO\ConfiguracoesDAO.cs" />
     <Compile Include="DAO\Connection.cs" />
     <Compile Include="DAO\LoginDAO.cs" />
+    <Compile Include="DAO\ManutencaoDAO.cs" />
+    <Compile Include="DAO\OleoDAO.cs" />
+    <Compile Include="DAO\ProblemaDAO.cs" />
+    <Compile Include="DAO\RelatoriosDAO.cs" />
     <Compile Include="Entity\Chave.cs" />
     <Compile Include="Entity\Check.cs" />
     <Compile Include="Entity\ConfiTxt.cs" />
+    <Compile Include="Entity\ManutencaoBD.cs" />
     <Compile Include="Entity\OleoBD.cs" />
+    <Compile Include="Entity\Problema.cs" />
+    <Compile Include="Entity\ProblemasVTR.cs" />
     <Compile Include="Entity\Usuario.cs" />
     <Compile Include="Entity\Veiculo.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Active\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Seguranca\Autenticacao.cs" />
@@ -78,13 +114,16 @@
     <AndroidResource Include="Resources\layout\Principal.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\CheckList.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\Oleo.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Manutencao.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Inicio.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CheckList.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -104,7 +143,6 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\redmark.ico" />
   </ItemGroup>
