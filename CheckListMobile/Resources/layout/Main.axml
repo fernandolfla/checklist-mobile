@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#A0522D">
+    android:layout_height="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:inputType="number"
         android:textSize="30sp"
         android:ems="10"
+        android:layout_gravity="center"
         android:id="@+id/Usuario" />
     <EditText
         android:layout_width="match_parent"
@@ -17,11 +17,15 @@
         android:inputType="numberPassword"
         android:textSize="30sp"
         android:ems="10"
+        android:layout_gravity="center"
         android:id="@+id/Senha" />
     <Button
         android:id="@+id/BtnLogin"
-        android:layout_width="375dp"
-        android:layout_height="98dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
         android:textSize="30sp"
-        android:text="ENTRAR" />
+        android:background="@drawable/btn_entrar"
+        android:text=""
+        android:layout_marginRight="0.0dp" />
 </LinearLayout>

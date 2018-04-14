@@ -9,7 +9,7 @@ namespace CheckVTR.DAO
         private string _conexao;
         public Connection()
         {
-           _conexao = "Data Source=177.92.18.155;Initial Catalog=VTR;Integrated Security=FALSE;User ID=sa;Password=masterkey;Connect Timeout=30";
+           _conexao = "Data Source=177.92.18.154\\SEGWARE;Initial Catalog=VTR;Integrated Security=FALSE;User ID=checklist;Password=hl1412;Connect Timeout=30";
             //_conexao = "Data Source=177.92.18.155;Initial Catalog=VTR;Integrated Security=FALSE;User ID=sa;Password=masterkey;Connect Timeout=30";
         }
 

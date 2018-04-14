@@ -61,5 +61,35 @@ namespace CheckListMobile.Active
 
 
         }
+
+
+        #region overrides_Android
+
+        protected override void OnRestart()
+        {
+            base.OnRestart();
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+        }
+
+        protected override void OnPause()
+        {
+            base.OnPause();
+        }
+
+
+        #endregion
+
+
+
+
     }
 }

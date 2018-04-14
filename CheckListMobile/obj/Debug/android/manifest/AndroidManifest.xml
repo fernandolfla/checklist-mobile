@@ -4,17 +4,17 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="CheckListMobile" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="CheckList  Mobile by JURUSEG" android:name="md519a2e9bd942ddf9ccebb904eff503fb6.MainActivity">
+    <activity android:icon="@drawable/icon" android:label="CheckList  Mobile by JURUSEG" android:name="md5e2432bca161c8e2ceef8c2172108e66c.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="CHECK - CHAVES" android:name="md5dd54c8733f998c802a985165695f2383.CheckChavesActivity" />
-    <activity android:label="CHECK - LIST" android:name="md5dd54c8733f998c802a985165695f2383.CheckListActivity" />
-    <activity android:label="FinalizaCheck" android:name="md5dd54c8733f998c802a985165695f2383.FinalizaCheckActivity" />
-    <activity android:label="Inicio" android:name="md5dd54c8733f998c802a985165695f2383.InicioActivity" />
-    <activity android:label="Lista de Problemas VTR" android:name="md5dd54c8733f998c802a985165695f2383.ProblemasActivity" />
+    <activity android:label="CHECK - CHAVES" android:name="md504505b07d1859268357645a5e9415690.CheckChavesActivity" />
+    <activity android:label="CHECK - LIST" android:name="md504505b07d1859268357645a5e9415690.CheckListActivity" />
+    <activity android:label="FinalizaCheck" android:name="md504505b07d1859268357645a5e9415690.FinalizaCheckActivity" />
+    <activity android:label="Inicio" android:name="md504505b07d1859268357645a5e9415690.InicioActivity" />
+    <activity android:label="Lista de Problemas VTR" android:name="md504505b07d1859268357645a5e9415690.ProblemasActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="CheckListMobile.CheckListMobile.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
